@@ -11,5 +11,5 @@ Por lo tanto se inicio la descarga un señal fisiologica, importandola en Python
 3. Utilizando funciones predefinidas en Python y métodos manuales, comparar las propiedades estadísticas de señales simuladas con las de señales reales.
   # PROCEDIMIENTO 
   
-*Parte A* 
+Parte A
 En esta parte inicial se realizo la descarga de una señal fisiologica desde la base de datos *PhysioNet*, asegurándose de que tuviera el tiempo necesario para calcular los parámetros estadísticos requeridos. Por lo tanto, Se importó la señal en Python y se usaron bibliotecas como matplotlib para representarla gráficamente. Esto marcó el comienzo del análisis estadístico de la señal, utilizando herramientas informáticas que facilitan la descripción de sus rasgos más relevantes.
