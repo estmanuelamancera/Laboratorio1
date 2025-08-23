@@ -56,6 +56,37 @@ cumpliendo con el ultimo requerimiento de la guia, vamos a comparar la señal ob
 Al comparar la Parte A "PhysioNet" con la Parte B "señal generada", se observa que la grafica A está más cercana a 0 ademas presenta picos más marcados, lo que refleja mejor el comportamiento real de un ECG. En cambio, la grafica B muestra valores más altos y estables, con menos variaciones bruscas, lo que indica que es una señal más suavizada y sencilla en comparación con la real.<br><br>
 
 
+# Parte C
+Para finalizar nuestra practica vamos a emplear **SNR** (signal to noise ratio), la relación señal ruido se trata de una medida que pone en comparación la fuerza de señal util  (calidad) de una señal a diferencia con el nivel de ruido presente, es decir,Un SNR alto significa que la señal es clara y sobresale respecto al ruido, por el contrario si el SNR de la señal es muy bajo, nos indica que el ruido hace demasiada interferencia respecto a la señal y afecta la trasmisión e interpretación de esta.
+
+Empleando la señal obtenida en el inciso B, vamos a contaminarla con __ruido gaussiano__ variaciones pequeñas y aleatorias, **ruido de impulso** picos fuertes y repentinos y __Ruido tipo artefacto__ errores que se producen por un sistema que trasmita la señal. y calcularemos sus respectivos SNR.<br>
+
+# CODIGO
+Este código calcula la relación entre una señal original y su versión con ruido, mostrando qué tan clara es la señal frente a la interferencia.Comparando la fuerza de la señal con la del ruido<br>
+<img width="386" height="169" alt="image" src="https://github.com/user-attachments/assets/176ae783-5a47-481b-b560-bb2fea4bd26c" /><br>
+<img width="1280" height="591" alt="image" src="https://github.com/user-attachments/assets/4fa66aa8-f2c0-474f-a671-98086d4c3d1d" />
+
+
+Este código agrega ruido gaussiano a la señal original de ECG para simular cómo se vería en condiciones menos ideales, grafica la señal,y analiza su SNR permitiendo comparar la forma original con la señal afectada por el ruido.<br>
+<img width="509" height="180" alt="image" src="https://github.com/user-attachments/assets/fbb7ed14-8402-44c3-9190-de14ad26d58e" /> <br>
+<img width="828" height="736" alt="image" src="https://github.com/user-attachments/assets/a3c0184d-c815-4639-99c0-ca1d787aaeb3" /> <br>
+
+continuamos agregando ruido de impulso a la señal original de ECG, graficando la señal,e igualmente analizando su SNR permitiendo permitiendo observar cómo cambia su forma al verse afectada por este tipo de ruido.<br>
+<img width="515" height="200" alt="image" src="https://github.com/user-attachments/assets/562ac372-78d1-4091-87ed-eaeed5dd9131" /> <br>
+<img width="828" height="723" alt="image" src="https://github.com/user-attachments/assets/5ddfc238-db87-402f-a658-b619e4ec11ef" /><br>
+
+continuamos agregando el ruido de artefacto a la señal original, y realizamos el mismo procedimiento que las señales anteriores.<br>
+<img width="551" height="190" alt="image" src="https://github.com/user-attachments/assets/d5a38829-b050-4396-9967-df86f8f61560" /><br>
+<img width="828" height="746" alt="image" src="https://github.com/user-attachments/assets/e9d29fe7-4410-484b-bf2c-3a7769e97343" /><br>
+
+Finalmente este codigo nos permitira visualizar los resultados obtenidos <br>
+<img width="297" height="94" alt="image" src="https://github.com/user-attachments/assets/021aa4b3-099d-4241-811b-d1e58d8bfb08" /> <br>
+<img width="427" height="136" alt="image" src="https://github.com/user-attachments/assets/34b68f47-f4b6-4b87-b786-984f063fa227" /><br>
+<img width="828" height="1472" alt="image" src="https://github.com/user-attachments/assets/1a705506-370d-4e8f-b297-8f598a5cdb26" />
+
+
+
+
 
 
 
