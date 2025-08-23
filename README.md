@@ -14,6 +14,10 @@ Por lo tanto se inicio la descarga un señal fisiologica, importandola en Python
 # Parte A
 En esta parte inicial se realizo la descarga de una señal fisiologica desde la base de datos *PhysioNet*, asegurándose de que tuviera el tiempo necesario para calcular los parámetros estadísticos requeridos. Por lo tanto, Se importó la señal en Python y se usaron bibliotecas como matplotlib para representarla gráficamente. Esto marcó el comienzo del análisis estadístico de la señal, utilizando herramientas informáticas que facilitan la descripción de sus rasgos más relevantes.
 
+<img width="342" height="255" alt="image" src="https://github.com/user-attachments/assets/f6d1fb4e-4443-40e5-af04-1e1edc77decd" /> <br>
+# CODIGO 
+
+
 
 
 # Parte B
@@ -60,6 +64,9 @@ Al comparar la Parte A "PhysioNet" con la Parte B "señal generada", se observa 
 Para finalizar nuestra practica vamos a emplear **SNR** (signal to noise ratio), la relación señal ruido se trata de una medida que pone en comparación la fuerza de señal util  (calidad) de una señal a diferencia con el nivel de ruido presente, es decir,Un SNR alto significa que la señal es clara y sobresale respecto al ruido, por el contrario si el SNR de la señal es muy bajo, nos indica que el ruido hace demasiada interferencia respecto a la señal y afecta la trasmisión e interpretación de esta.
 
 Empleando la señal obtenida en el inciso B, vamos a contaminarla con __ruido gaussiano__ variaciones pequeñas y aleatorias, **ruido de impulso** picos fuertes y repentinos y __Ruido tipo artefacto__ errores que se producen por un sistema que trasmita la señal. y calcularemos sus respectivos SNR.<br>
+
+<img width="340" height="257" alt="image" src="https://github.com/user-attachments/assets/d8838ae3-3446-4327-ae1e-b40e708fc34e" /> <br>
+
 
 # CODIGO
 Este código calcula la relación entre una señal original y su versión con ruido, mostrando qué tan clara es la señal frente a la interferencia.Comparando la fuerza de la señal con la del ruido<br>
