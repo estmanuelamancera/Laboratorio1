@@ -1,1 +1,2 @@
-# Laboratorio1
+# Análisis estadístico de la señal 
+           Laboratorio 1 
