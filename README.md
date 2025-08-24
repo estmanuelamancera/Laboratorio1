@@ -38,6 +38,7 @@ Luego, se establece el camino hacia el archivo relevante, se carga a través de 
 # Cálculo de estadísticos descriptivos
 
  MÉTODOS MANUALES
+ 
 En esta parte la programación las ecuaciones matemáticas se hace de manera directa en Python.  Se determinó la media al dividir la totalidad de los valores entre la cantidad de muestras, la desviación estándar se define como la raíz cuadrada de la suma de las diferencias al cuadrado en relación a la media, y el coeficiente de variación, que se obtiene al dividir la desviación estándar entre la media.  Este método facilita entender cómo se extraen estos valores de los datos sin necesidad de emplear funciones preestablecidas.
 
 <img width="1016" height="161" alt="image" src="https://github.com/user-attachments/assets/79b87449-8922-4d2e-b9db-f5d2f2f8ef3f" />
@@ -45,7 +46,24 @@ En esta parte la programación las ecuaciones matemáticas se hace de manera dir
   MÉTODOS CON FUNCIONES DE PYTHON
 
  <img width="882" height="175" alt="image" src="https://github.com/user-attachments/assets/50898dfd-d1ef-4f37-aacd-a9201ea631a9" />
+ 
 Aquí se repiten los cálculos con funciones optimizadas de NumPy y SciPy, añadiendo la curtosis.
+
+ORGANIZACIÓN DE RESULTADOS EN DATAFRAME
+
+Los datos recolectados se estructuraron en una tabla empleando la librería pandas, generando un DataFrame que contenía los valores de media, desviación estándar, coeficiente de variación y curtosis.  Este procedimiento es esencial ya que simplifica la comprensión de los resultados.}
+
+<img width="1025" height="270" alt="image" src="https://github.com/user-attachments/assets/527b5e21-9e51-4fd1-ad40-e243c034a4e8" />
+
+ HISTOGRAMA
+Finalmente, el histograma de la señal fue elaborado empleando la librería matplotlib.  Cuando se utilizó la opción density=True, el histograma se normalizó y se pudo entender como una función de probabilidad, evidenciando la distribución de los valores de amplitud de la señal a lo largo del tiempo.  Este estudio estadístico gráfico añade valores numéricos calculados anteriormente, pues facilita la identificación visual de la tendencia y la dispersión de la señal fisiológica.
+
+<img width="1421" height="236" alt="image" src="https://github.com/user-attachments/assets/9302d450-c319-4fca-a66c-e323382359a0" />
+
+GRÁFICA
+
+<img width="1254" height="715" alt="image" src="https://github.com/user-attachments/assets/5083164c-a44d-4355-bc9d-69119c6e7941" />
+
 
 # PROCEDIMIENTO
 # Parte B
