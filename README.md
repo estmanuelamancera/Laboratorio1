@@ -18,7 +18,8 @@ Por lo tanto se inicio la descarga un señal fisiologica, importandola en Python
 # Parte A
 En esta parte inicial se realizo la descarga de una señal fisiologica desde la base de datos *PhysioNet*, asegurándose de que tuviera el tiempo necesario para calcular los parámetros estadísticos requeridos. Por lo tanto, Se importó la señal en Python y se usaron bibliotecas como matplotlib para representarla gráficamente. Esto marcó el comienzo del análisis estadístico de la señal, utilizando herramientas informáticas que facilitan la descripción de sus rasgos más relevantes.
 
-<img width="342" height="255" alt="image" src="https://github.com/user-attachments/assets/f6d1fb4e-4443-40e5-af04-1e1edc77decd" /> <br>
+<img width="1024" height="768" alt="Diagrama de Flujo Árbol de decisiones Sencillo Verde (2)" src="https://github.com/user-attachments/assets/e78ac634-b89a-4e05-9fc1-f4759875f71a" />
+
 # CÓDIGO 
 
 Para iniciar el primer fragmento de este código tiene como fin leer, procesar y representar una señal fisiológica (como un ECG) que proviene de PhysioNet.  Inicialmente, se establece Google Drive para tener acceso a archivos guardados en la nube, y se instala las liberías wfdb, que facilita la lectura de registros fisiológicos en los formatos.dat y.hea.  
