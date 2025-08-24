@@ -90,7 +90,7 @@ En la Parte B del laboratorio, una señal fisiológica fue producida experimenta
 Este código permite leer el excel con los datos obtenidos del DAQ, separa la columna de tiempo y la de la señal, y desarrolla la gráfica de la señal tipo fisiologica. De permitiendo ver cómo cambia la amplitud de la señal con respecto al tiempo.  <br>
 <img width="392" height="290" alt="image" src="https://github.com/user-attachments/assets/23dcd1fc-9551-435a-b613-5e877a89d81d" /><br>
 
-en esta parte de calculan las estadísticas descriptivas de la señal registrada, es decir, la media, la desviación estándar, el coeficiente de variación y la curtosis. Los resultados se muestran en pantalla con cuatro decimales.<br>
+En esta parte de calculan las estadísticas descriptivas de la señal registrada, es decir, la media, la desviación estándar, el coeficiente de variación y la curtosis. Los resultados se muestran en pantalla con cuatro decimales.<br>
 <img width="371" height="261" alt="image" src="https://github.com/user-attachments/assets/692dcc6f-dd14-48d5-9b95-ce305b4db90f" /><br>
 | ESTADISTICO     | VALOR   |
 |-----------------|----------|
@@ -103,19 +103,19 @@ en esta parte de calculan las estadísticas descriptivas de la señal registrada
 
 
 
-continuando con la captura de las estadisticas continuamos con el histograma, que nos indica las veces que se repitieron los datos<br>
+Continuando con la captura de las estadisticas continuamos con el histograma, que nos indica las veces que se repitieron los datos<br>
 <img width="529" height="108" alt="image" src="https://github.com/user-attachments/assets/5a57b2c4-befb-4063-a3ab-f01d4931a72b" /><br>
 <img width="884" height="588" alt="image" src="https://github.com/user-attachments/assets/c76755d9-d465-4082-864c-20ca8ea3dc45" />
 <br>
 
 
-para terminar con el analisis de la grafica obtenemos la funcion de probabilidad de la grafica que es un estima de como se podrian distribuir los datos.<br>
+Para terminar con el analisis de la grafica obtenemos la funcion de probabilidad de la grafica que es un estima de como se podrian distribuir los datos.<br>
 <img width="435" height="178" alt="image" src="https://github.com/user-attachments/assets/21530faa-7cbf-47b5-abbd-0e65300865fe" /><br>
 <img width="875" height="589" alt="image" src="https://github.com/user-attachments/assets/b15a82bd-352d-4973-847d-0a8731ea4fc0" />
 <br>
 
 
-cumpliendo con el ultimo requerimiento de la guia, vamos a comparar la señal obtenida y analizada en la parte B con la señal incial (Parte A)<br>
+Cumpliendo con el ultimo requerimiento de la guia, vamos a comparar la señal obtenida y analizada en la parte B con la señal incial (Parte A)<br>
 <img width="836" height="216" alt="image" src="https://github.com/user-attachments/assets/69618b99-6ae7-47f1-a887-4fd32e2fadb9" /><br><br>
 <img width="828" height="945" alt="image" src="https://github.com/user-attachments/assets/4a2902d1-f0bc-4898-b9cc-91500acbbb0c" /><br>
 Al comparar la Parte A "PhysioNet" con la Parte B "señal generada", se observa que la grafica A está más cercana a 0 ademas presenta picos más marcados, lo que refleja mejor el comportamiento real de un ECG. En cambio, la grafica B muestra valores más altos y estables, con menos variaciones bruscas, lo que indica que es una señal más suavizada y sencilla en comparación con la real.<br><br>
@@ -139,11 +139,11 @@ Este código agrega ruido gaussiano a la señal original de ECG para simular có
 <img width="509" height="180" alt="image" src="https://github.com/user-attachments/assets/fbb7ed14-8402-44c3-9190-de14ad26d58e" /> <br>
 <img width="828" height="736" alt="image" src="https://github.com/user-attachments/assets/a3c0184d-c815-4639-99c0-ca1d787aaeb3" /> <br>
 
-continuamos agregando ruido de impulso a la señal original de ECG, graficando la señal,e igualmente analizando su SNR permitiendo permitiendo observar cómo cambia su forma al verse afectada por este tipo de ruido.<br>
+Continuamos agregando ruido de impulso a la señal original de ECG, graficando la señal,e igualmente analizando su SNR permitiendo permitiendo observar cómo cambia su forma al verse afectada por este tipo de ruido.<br>
 <img width="515" height="200" alt="image" src="https://github.com/user-attachments/assets/562ac372-78d1-4091-87ed-eaeed5dd9131" /> <br>
 <img width="828" height="723" alt="image" src="https://github.com/user-attachments/assets/5ddfc238-db87-402f-a658-b619e4ec11ef" /><br>
 
-continuamos agregando el ruido de artefacto a la señal original, y realizamos el mismo procedimiento que las señales anteriores.<br>
+Continuamos agregando el ruido de artefacto a la señal original, y realizamos el mismo procedimiento que las señales anteriores.<br>
 <img width="551" height="190" alt="image" src="https://github.com/user-attachments/assets/d5a38829-b050-4396-9967-df86f8f61560" /><br>
 <img width="828" height="746" alt="image" src="https://github.com/user-attachments/assets/e9d29fe7-4410-484b-bf2c-3a7769e97343" /><br>
 
