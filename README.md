@@ -21,6 +21,9 @@ En esta parte inicial se realizo la descarga de una señal fisiologica desde la 
 # CODIGO 
 
 
+<img width="1059" height="490" alt="image" src="https://github.com/user-attachments/assets/757733c4-223a-451b-bb83-f67694cdb2c4" />
+
+
 
 # PROCEDIMIENTO
 # Parte B
