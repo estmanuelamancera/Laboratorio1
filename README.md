@@ -55,12 +55,17 @@ Los datos recolectados se estructuraron en una tabla empleando la librería pand
 
 <img width="1025" height="270" alt="image" src="https://github.com/user-attachments/assets/527b5e21-9e51-4fd1-ad40-e243c034a4e8" />
 
+
  HISTOGRAMA
+
+ 
 Finalmente, el histograma de la señal fue elaborado empleando la librería matplotlib.  Cuando se utilizó la opción density=True, el histograma se normalizó y se pudo entender como una función de probabilidad, evidenciando la distribución de los valores de amplitud de la señal a lo largo del tiempo.  Este estudio estadístico gráfico añade valores numéricos calculados anteriormente, pues facilita la identificación visual de la tendencia y la dispersión de la señal fisiológica.
 
 <img width="1421" height="236" alt="image" src="https://github.com/user-attachments/assets/9302d450-c319-4fca-a66c-e323382359a0" />
 
-GRÁFICA
+GRÁFICA Y RESULTADOS 
+
+<img width="1078" height="162" alt="image" src="https://github.com/user-attachments/assets/260a4b95-68ab-44be-8853-a2db84fddb71" />
 
 <img width="1254" height="715" alt="image" src="https://github.com/user-attachments/assets/5083164c-a44d-4355-bc9d-69119c6e7941" />
 
