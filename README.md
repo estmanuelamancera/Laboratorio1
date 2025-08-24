@@ -65,7 +65,7 @@ cumpliendo con el ultimo requerimiento de la guia, vamos a comparar la señal ob
 <img width="828" height="945" alt="image" src="https://github.com/user-attachments/assets/4a2902d1-f0bc-4898-b9cc-91500acbbb0c" /><br>
 Al comparar la Parte A "PhysioNet" con la Parte B "señal generada", se observa que la grafica A está más cercana a 0 ademas presenta picos más marcados, lo que refleja mejor el comportamiento real de un ECG. En cambio, la grafica B muestra valores más altos y estables, con menos variaciones bruscas, lo que indica que es una señal más suavizada y sencilla en comparación con la real.<br><br>
 
-#PROCEDIMIENTO
+# PROCEDIMIENTO 
 # Parte C
 Para finalizar nuestra practica vamos a emplear **SNR** (signal to noise ratio), la relación señal ruido se trata de una medida que pone en comparación la fuerza de señal util  (calidad) de una señal a diferencia con el nivel de ruido presente, es decir,Un SNR alto significa que la señal es clara y sobresale respecto al ruido, por el contrario si el SNR de la señal es muy bajo, nos indica que el ruido hace demasiada interferencia respecto a la señal y afecta la trasmisión e interpretación de esta.
 
