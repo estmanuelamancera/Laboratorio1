@@ -30,9 +30,10 @@ Luego, se establece el camino hacia el archivo relevante, se carga a través de 
 
 <img width="1059" height="490" alt="image" src="https://github.com/user-attachments/assets/757733c4-223a-451b-bb83-f67694cdb2c4" />
  Por otro lado en la parte de plt.figure, se hace la visualización general de la señal, la cual  grafica los primeros 1000 puntos en una fugura 12x4".
- . "lighcoral": El color.
- . "plt.show()": Para visualizar la señal.
-
+ - lighcoral: El color.
+ - plt.show(): Para visualizar la señal.
+   
+# Cálculo de estadísticos descriptivos
 
 
 # PROCEDIMIENTO
