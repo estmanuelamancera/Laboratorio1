@@ -32,9 +32,20 @@ Luego, se establece el camino hacia el archivo relevante, se carga a través de 
  Por otro lado en la parte de plt.figure, se hace la visualización general de la señal, la cual  grafica los primeros 1000 puntos en una fugura 12x4".
  - lighcoral: El color.
  - plt.show(): Para visualizar la señal.
+
+<img width="1524" height="589" alt="image" src="https://github.com/user-attachments/assets/79290f2d-c756-4f2c-8f89-d449c6b489c8" />
    
 # Cálculo de estadísticos descriptivos
 
+ MÉTODOS MANUALES
+En esta parte la programación las ecuaciones matemáticas se hace de manera directa en Python.  Se determinó la media al dividir la totalidad de los valores entre la cantidad de muestras, la desviación estándar se define como la raíz cuadrada de la suma de las diferencias al cuadrado en relación a la media, y el coeficiente de variación, que se obtiene al dividir la desviación estándar entre la media.  Este método facilita entender cómo se extraen estos valores de los datos sin necesidad de emplear funciones preestablecidas.
+
+<img width="1016" height="161" alt="image" src="https://github.com/user-attachments/assets/79b87449-8922-4d2e-b9db-f5d2f2f8ef3f" />
+
+  MÉTODOS CON FUNCIONES DE PYTHON
+
+ <img width="882" height="175" alt="image" src="https://github.com/user-attachments/assets/50898dfd-d1ef-4f37-aacd-a9201ea631a9" />
+Aquí se repiten los cálculos con funciones optimizadas de NumPy y SciPy, añadiendo la curtosis.
 
 # PROCEDIMIENTO
 # Parte B
