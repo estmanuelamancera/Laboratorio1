@@ -5,6 +5,7 @@ En este repocitorio se realizó el analisis de selañes biomédicas utilizando t
 Por lo tanto se inicio la descarga un señal fisiologica, importandola en Python para su graficación y calculos de parametros estadisticos. Por otro lado, se obtuvo una señal gracias al Osiloscopio,capturandola por el DAQ y se relaciono sus caracteristicas con la señal inicial. Además, se determino la influencia del ruido en las señales atraves del calculo de la relacion Señal-Ruido (SNR) y analizando sus efectos sobre la señal.
 
 
+
    # OBJETIVOS 
  
 1. Elegir, importar y analizar señales fisiológicas para su procesamiento estadístico en Python.
