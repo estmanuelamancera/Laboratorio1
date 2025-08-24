@@ -26,6 +26,8 @@ En esta parte inicial se realizo la descarga de una señal fisiologica desde la 
 
 En la Parte B del laboratorio, una señal fisiológica fue producida experimentalmente por medio del generador de señales biológicas. Se empleó un sistema de adquisición de datos (DAQ) para obtenerlo, el cual fue conectado físicamente al PC por medio de USB y configurado con el controlador NI-DAQmx. El DAQ recibió la señal analógica del generador, la transformó a formato digital y la transfirió a MATLAB, donde se guardó en un archivo *.csv*. Posteriormente, la señal fue importada a Python para realizar análisis estadísticos y graficarla. Así, se calcularon los parámetros estadísticos obtenidos en la Parte A y se comparó la señal descargada de Physionet con la señal capturada usando el DAQ, lo que evidenció sus semejanzas y diferencias.
 
+<img width="1024" height="768" alt="Diagrama de Flujo Árbol de decisiones Sencillo Verde (1)" src="https://github.com/user-attachments/assets/77a8eab6-c25d-4d99-92fb-3a21c1697ce2" />
+
 
 
 ![WhatsApp Image 2025-08-23 at 11 25 57 AM](https://github.com/user-attachments/assets/aa81cf54-221c-4e34-8ceb-925a94f26407) <br><br>
