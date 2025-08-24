@@ -81,7 +81,7 @@ En la Parte B del laboratorio, una señal fisiológica fue producida experimenta
 
 <img width="1024" height="768" alt="Diagrama de Flujo Árbol de decisiones Sencillo Verde (1)" src="https://github.com/user-attachments/assets/77a8eab6-c25d-4d99-92fb-3a21c1697ce2" />
 
-
+SEÑAL ADQUIRIDA
 
 ![WhatsApp Image 2025-08-23 at 11 25 57 AM](https://github.com/user-attachments/assets/aa81cf54-221c-4e34-8ceb-925a94f26407) <br><br>
 
