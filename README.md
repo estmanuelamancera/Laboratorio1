@@ -67,6 +67,9 @@ GRÁFICA Y RESULTADOS
 
 <img width="1078" height="162" alt="image" src="https://github.com/user-attachments/assets/260a4b95-68ab-44be-8853-a2db84fddb71" />
 
+Los hallazgos estadísticos de la señal de PhysioNet revelaron una media próxima a cero (0.00056), una desviación estándar de 0.244 y un coeficiente de variación considerablemente elevado (433.5), lo que evidencia una amplia dispersión relativa en comparación con el promedio.  Adicionalmente, la curtosis (19.10) evidenció la aparición de picos marcados propios de la señal ECG.
+
+
 <img width="1254" height="715" alt="image" src="https://github.com/user-attachments/assets/5083164c-a44d-4355-bc9d-69119c6e7941" />
 
 
