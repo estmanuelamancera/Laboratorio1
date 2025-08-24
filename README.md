@@ -21,7 +21,7 @@ En esta parte inicial se realizo la descarga de una señal fisiologica desde la 
 
 
 
-
+# PROCEDIMIENTO
 # Parte B
 
 En la Parte B del laboratorio, una señal fisiológica fue producida experimentalmente por medio del generador de señales biológicas. Se empleó un sistema de adquisición de datos (DAQ) para obtenerlo, el cual fue conectado físicamente al PC por medio de USB y configurado con el controlador NI-DAQmx. El DAQ recibió la señal analógica del generador, la transformó a formato digital y la transfirió a MATLAB, donde se guardó en un archivo *.csv*. Posteriormente, la señal fue importada a Python para realizar análisis estadísticos y graficarla. Así, se calcularon los parámetros estadísticos obtenidos en la Parte A y se comparó la señal descargada de Physionet con la señal capturada usando el DAQ, lo que evidenció sus semejanzas y diferencias.
@@ -31,7 +31,7 @@ En la Parte B del laboratorio, una señal fisiológica fue producida experimenta
 ![WhatsApp Image 2025-08-23 at 11 25 57 AM](https://github.com/user-attachments/assets/aa81cf54-221c-4e34-8ceb-925a94f26407) <br><br>
 
 
-# CODIGO 
+# CÓDIGO 
 Este código permite leer el excel con los datos obtenidos del DAQ, separa la columna de tiempo y la de la señal, y desarrolla la gráfica de la señal tipo fisiologica. De permitiendo ver cómo cambia la amplitud de la señal con respecto al tiempo.  <br>
 <img width="392" height="290" alt="image" src="https://github.com/user-attachments/assets/23dcd1fc-9551-435a-b613-5e877a89d81d" /><br>
 
@@ -65,7 +65,7 @@ cumpliendo con el ultimo requerimiento de la guia, vamos a comparar la señal ob
 <img width="828" height="945" alt="image" src="https://github.com/user-attachments/assets/4a2902d1-f0bc-4898-b9cc-91500acbbb0c" /><br>
 Al comparar la Parte A "PhysioNet" con la Parte B "señal generada", se observa que la grafica A está más cercana a 0 ademas presenta picos más marcados, lo que refleja mejor el comportamiento real de un ECG. En cambio, la grafica B muestra valores más altos y estables, con menos variaciones bruscas, lo que indica que es una señal más suavizada y sencilla en comparación con la real.<br><br>
 
-
+#PROCEDIMIENTO
 # Parte C
 Para finalizar nuestra practica vamos a emplear **SNR** (signal to noise ratio), la relación señal ruido se trata de una medida que pone en comparación la fuerza de señal util  (calidad) de una señal a diferencia con el nivel de ruido presente, es decir,Un SNR alto significa que la señal es clara y sobresale respecto al ruido, por el contrario si el SNR de la señal es muy bajo, nos indica que el ruido hace demasiada interferencia respecto a la señal y afecta la trasmisión e interpretación de esta.
 
@@ -74,7 +74,7 @@ Empleando la señal obtenida en el inciso B, vamos a contaminarla con __ruido ga
 <img width="340" height="257" alt="image" src="https://github.com/user-attachments/assets/d8838ae3-3446-4327-ae1e-b40e708fc34e" /> <br>
 
 
-# CODIGO
+# CÓDIGO
 Este código calcula la relación entre una señal original y su versión con ruido, mostrando qué tan clara es la señal frente a la interferencia.Comparando la fuerza de la señal con la del ruido<br>
 <img width="386" height="169" alt="image" src="https://github.com/user-attachments/assets/176ae783-5a47-481b-b560-bb2fea4bd26c" /><br>
 <img width="1280" height="591" alt="image" src="https://github.com/user-attachments/assets/4fa66aa8-f2c0-474f-a671-98086d4c3d1d" />
