@@ -19,7 +19,7 @@ En esta parte inicial se realizo la descarga de una señal fisiologica desde la 
 
 <img width="342" height="255" alt="image" src="https://github.com/user-attachments/assets/f6d1fb4e-4443-40e5-af04-1e1edc77decd" /> <br>
 # CODIGO 
-
+Para iniciar el primer fragmento de este código tiene como fin leer, procesar y representar una señal fisiológica (como un ECG) que proviene de PhysioNet.  Inicialmente, se establece Google Drive para tener acceso a archivos guardados en la nube, y se instala la biblioteca wfdb, que facilita la lectura de registros fisiológicos en los formatos.dat y.hea.  Luego, se establece el camino hacia el archivo relevante, se carga a través de wfdb.rdrecord() y se muestra la señal completa utilizando wfdb.plot_wfdb().  Posteriormente, se obtiene información de la señal a través de record.p_signal, la cual se guarda como un arreglo de tipo NumPy que simboliza la amplitud de la señal a través del tiempo.
 
 <img width="1059" height="490" alt="image" src="https://github.com/user-attachments/assets/757733c4-223a-451b-bb83-f67694cdb2c4" />
 
